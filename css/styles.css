@@ -30,13 +30,14 @@ p, ul{
 }
 .classes-feature-container{/* classes feature image */
   background: url("../img/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg") no-repeat;
+  padding-bottom: 3rem;
 }
 .home-feature-container, .classes-feature-container{
   background-size: cover;
   background-attachment: fixed;
   background-origin: border-box;
   background-position: top center;
-  margin-top: 60px;
+  margin-top: 60px; /* accounts for fixed navbar height */
 }
 .home-feature{
   margin: 28% auto 0;
@@ -45,13 +46,13 @@ p, ul{
   background-color: rgba(255, 255, 255, 0.8 );
   text-align: center;
 }
-.feature-title{
+.feature-title{ /* Global style */
   font-size: 2rem;
   font-weight: 900;
   text-transform: uppercase;
   color: #ff5757; /*off-red / orange-red*/
 }
-.centered-feature{
+.centered-feature{ /* Global style */
   background-color: rgba(255, 255, 255, 0.8 );
   margin: 6rem auto 3%;
   padding: 3% 7% 3%;
@@ -60,6 +61,14 @@ p, ul{
   top: 50px;
 }
                       /* Utilities */
+.stick-subnav{
+  z-index: 99; /* On top of all elements */
+  position: fixed;
+  top: 0;
+}
+.square{
+  border-radius: 0px;
+}
 .fa-chevron-down{
   color: rgba(0,0,0,0.65);
 }

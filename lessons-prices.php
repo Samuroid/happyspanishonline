@@ -5,8 +5,8 @@
     <div class="centered-feature">
 
       <h1 class="feature-title">30-minutes free meeting</h1>
-      <h2>Create a learning program that suits your needs.</h2>
-      <h2>We will cover:</h2>
+      <h3>Create a learning program that suits your needs.</h3>
+      <h4>We will cover:</h4>
       <ul class="text-justify">
         <li>
           Your current level of Spanish and what you want to achieve.
@@ -18,33 +18,33 @@
           Plan out a schedule based on your availability.
         </li>
       </ul>
-
-      <a href="#individual-classes"><i class="fas fa-chevron-down fa-3x mt-5"></i></a>
-
-      <nav class="navbar navbar-expand-md" role="navigation" aria-label="secondary">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#individual-classes">Individual Classes</a>
-          <li>
-          <li class="nav-item">
-            <a class="nav-link" href="#group-classes">Group Classes</a>
-          <li>
-          <li class="nav-item">
-            <a class="nav-link" href="#dele">DELE Preparation</a>
-          <li>
-          <li class="nav-item">
-            <a class="nav-link" href="#conversational">Conversational Classes</a>
-          <li>
-        </ul>
-      </nav>
-
     </div><!-- .centered-feature -->
   </div><!-- .row -->
 </section>
 
-
     <!-- Class cards -->
     <div id="individual-classes" class="container-fluid">
+      <!-- Might have to that this row nav out of ^this^ individual-classes container-->
+        <nav class="row nav" role="navigation" aria-label="secondary">
+
+          <div class="col-md-3">
+            <a class="nav-link btn btn-primary btn-lg mt-4" href="#individual-classes">Individual Classes</a>
+          </div>
+
+          <div class="col-md-3">
+            <a class="nav-link btn btn-primary btn-lg mt-4" href="#group-classes">Group Classes</a>
+          </div>
+
+          <div class="col-md-3">
+            <a class="nav-link btn btn-primary btn-lg mt-4" href="#dele">DELE Prep</a>
+          </div>
+
+          <div class="col-md-3">
+            <a class="nav-link btn btn-primary btn-lg mt-4" href="#conversational">Conversations</a>
+          </div>
+
+        </nav>
+
       <div class="row text-center mt-4 ml-4 mr-4">
         <div class="col">
           <h1 id="individual" class="mt-4">
@@ -117,7 +117,7 @@
         </div><!-- /row -->
 
 
-        <a class="full-width" href="contact.php"><button class="btn btn-lg btn-block btn-primary mt-4" type="button">Contact Macarena</button></a>
+        <a class="full-width" href="contact.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Contact Macarena</button></a>
 
       </div>
     </div><!-- #individual-classes -->
