@@ -30,7 +30,7 @@ p, ul{
 }
 .classes-feature-container{/* classes feature image */
   background: url("../img/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg") no-repeat;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 .home-feature-container, .classes-feature-container{
   background-size: cover;
@@ -61,13 +61,19 @@ p, ul{
   top: 50px;
 }
                       /* Utilities */
-.stick-subnav{
+.headBumper{
+  margin-top: 120px;
+}
+.subnav{
+  position: relative;
   z-index: 99; /* On top of all elements */
-  position: fixed;
-  top: 60px;
-  padding-bottom: 1rem;
   width: 100%;
   background: rgba(0,0,0,0.2);
+  padding-bottom: 1rem;
+}
+.stick-subnav{
+  position: fixed;
+  top: 60px;
 }
 .square{
   border-radius: 0px;
@@ -146,7 +152,6 @@ i{
   text-align: center;
   padding-top: 7%;
 }
-
 .testimonial-img{
   width: 10%;
   border-radius: 100%;
@@ -165,15 +170,36 @@ i{
 .carousel-item, #contact{
   padding: 7% 15%;
 }
-
-#individual-classes, #group-classes, #dele, #conversational{
-  padding-top: 1%;
+#individual{
+  padding-top: 120px;
+  margin-top: 0px;
+   -webkit-background-clip: content-box;
+  background-clip: content-box;
+  z-index: 0;
+}
+#group, #dele, #conversational{
+  position: relative;
+  padding-top: 15px;
+  border-top: 120px solid transparent;
+  margin: -60px 0 0;
+  background-clip: padding-box;
+  z-index: 0;
+}
+#group:before, #dele:before, #conversational:before{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid transparent;
+  z-index: 0;
 }
 
 /* group classes */
-#group-classes, #conversational, #ad-cards{
+#group, #conversational, #ad-cards{
   background-color: #DED2BF;
   box-shadow: 0px 0px 5px gray inset;
+  padding-bottom: 40px;
 }
 
 /* List styles */
@@ -210,6 +236,7 @@ li{
   .centralise-list-styled{
     margin: 0 3%;
   }
+  /* Header */
   .header{
     text-align: center;
     padding-top: 0;
@@ -223,17 +250,26 @@ li{
     display: inline-block;
     margin: 0 auto;
   }
+  /* Lessons-Prices Page */
+  #individual{
+    /* padding-top: 0px; */
+  }
+  /* Other pages */
   #privacy, #methodology{
     margin-top: -1rem;
   }
   .macarena-photo{
     width: 450px;
   }
+  .methodology-image{
+    max-width: 370px;
+  }
   #footer img{
     width: 100%;
   }
-  .methodology-image{
-    max-width: 370px;
+  /*Utilities*/
+  .headBumper{
+    margin-top: 240px;
   }
 }
 

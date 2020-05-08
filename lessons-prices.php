@@ -22,32 +22,31 @@
   </div><!-- .row -->
 </section>
 
+<nav id="subnav" class="nav subnav" role="navigation" aria-label="secondary">
+
+  <div class="col-lg-3 col-sm-6">
+    <a class="nav-link btn btn-primary btn-lg mt-4" href="#individual">Individual</a>
+  </div>
+
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <a class="nav-link btn btn-primary btn-lg mt-4" href="#group">Group</a>
+  </div>
+
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <a class="nav-link btn btn-primary btn-lg mt-4" href="#dele">DELE Prep</a>
+  </div>
+
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <a class="nav-link btn btn-primary btn-lg mt-4" href="#conversational">Conversations</a>
+  </div>
+
+</nav>
+
     <!-- Class cards -->
-    <div id="individual-classes" class="container-fluid">
-      <!-- Might have to that this row nav out of ^this^ individual-classes container-->
-        <nav id="subnav" class="row nav subnav" role="navigation" aria-label="secondary">
-
-          <div class="col-lg-3 col-sm-6">
-            <a class="nav-link btn btn-primary btn-lg mt-4" href="#individual-classes">Individual</a>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <a class="nav-link btn btn-primary btn-lg mt-4" href="#group-classes">Group</a>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <a class="nav-link btn btn-primary btn-lg mt-4" href="#dele">DELE Prep</a>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <a class="nav-link btn btn-primary btn-lg mt-4" href="#conversational">Conversations</a>
-          </div>
-
-        </nav>
-
-      <div class="row text-center mt-4 ml-4 mr-4">
+    <div class="container-fluid">
+      <div class="row text-center">
         <div class="col">
-          <h1 id="individual" class="mt-4">
+          <h1 id="individual">
             Individual Lessons
           </h1>
           <ul class="centralise-list-styled">
@@ -119,14 +118,14 @@
 
         <a class="full-width" href="contact.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Contact Macarena</button></a>
 
-      </div>
+      </div><!-- .card-deck -->
     </div><!-- #individual-classes -->
 
 
   </section>
 
-  <section id="group-classes">
-    <div class="row text-center mt-4 ml-4 mr-4">
+  <section id="group">
+    <div class="row text-center">
       <div class="col">
         <h1 class="mt-4">
           Group Classes
@@ -187,13 +186,13 @@
 
       <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Meet Macarena</button></a>
 
-    </div>
+    </div><!-- .card-deck -->
   </section><!-- #group-classes -->
 
   <section id="dele">
-    <div class="row text-center mt-4 ml-4 mr-4">
+    <div class="row text-center">
       <div class="col">
-        <h1 class="mt-4">
+        <h1>
           DELE Preparation
         </h1>
         <ul class="centralise-list-styled">
@@ -233,13 +232,13 @@
 
       <a class="full-width" href="contact.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Contact Macarena</button></a>
 
-    </div>
+    </div><!-- .card-deck -->
   </section><!-- #diploma -->
 
   <section id="conversational">
-    <div class="row text-center mt-4 ml-4 mr-4">
+    <div class="row text-center mt-4">
       <div class="col">
-        <h1 class="mt-4">
+        <h1 class="">
           Conversational lessons
         </h1>
         <ul class="centralise-list-styled">
@@ -277,7 +276,7 @@
 
       <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Meet Macarena</button></a>
 
-    </div>
+    </div><!-- .card-deck -->
   </section><!-- #conversational -->
 
 <?php include "footer.php"; ?>
