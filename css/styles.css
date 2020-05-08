@@ -64,7 +64,10 @@ p, ul{
 .stick-subnav{
   z-index: 99; /* On top of all elements */
   position: fixed;
-  top: 0;
+  top: 60px;
+  padding-bottom: 1rem;
+  width: 100%;
+  background: rgba(0,0,0,0.2);
 }
 .square{
   border-radius: 0px;

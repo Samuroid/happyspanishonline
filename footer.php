@@ -5,7 +5,7 @@
         </p>
   </footer>
 
-  <?php getTitle() ?>
+  <?php getScripts(); ?>
 </body>
 
 </html>

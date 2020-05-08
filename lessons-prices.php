@@ -25,21 +25,21 @@
     <!-- Class cards -->
     <div id="individual-classes" class="container-fluid">
       <!-- Might have to that this row nav out of ^this^ individual-classes container-->
-        <nav class="row nav" role="navigation" aria-label="secondary">
+        <nav id="subnav" class="row nav subnav" role="navigation" aria-label="secondary">
 
-          <div class="col-md-3">
-            <a class="nav-link btn btn-primary btn-lg mt-4" href="#individual-classes">Individual Classes</a>
+          <div class="col-lg-3 col-sm-6">
+            <a class="nav-link btn btn-primary btn-lg mt-4" href="#individual-classes">Individual</a>
           </div>
 
-          <div class="col-md-3">
-            <a class="nav-link btn btn-primary btn-lg mt-4" href="#group-classes">Group Classes</a>
+          <div class="col-lg-3 col-sm-6">
+            <a class="nav-link btn btn-primary btn-lg mt-4" href="#group-classes">Group</a>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-lg-3 col-sm-6">
             <a class="nav-link btn btn-primary btn-lg mt-4" href="#dele">DELE Prep</a>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-lg-3 col-sm-6">
             <a class="nav-link btn btn-primary btn-lg mt-4" href="#conversational">Conversations</a>
           </div>
 
@@ -185,7 +185,7 @@
 
       </div>
 
-      <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary mt-4" type="button">Meet Macarena</button></a>
+      <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Meet Macarena</button></a>
 
     </div>
   </section><!-- #group-classes -->
@@ -231,7 +231,7 @@
       </div>
 
 
-      <a class="full-width" href="contact.php"><button class="btn btn-lg btn-block btn-primary mt-4" type="button">Contact Macarena</button></a>
+      <a class="full-width" href="contact.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Contact Macarena</button></a>
 
     </div>
   </section><!-- #diploma -->
@@ -275,7 +275,7 @@
         </div>
       </div>
 
-      <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary mt-4" type="button">Meet Macarena</button></a>
+      <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Meet Macarena</button></a>
 
     </div>
   </section><!-- #conversational -->

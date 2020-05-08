@@ -22,4 +22,11 @@ function getCSS(){
   }
 }
 
+function getScripts(){
+  $siteUri = $_SERVER['PHP_SELF'];
+  if( strpos($siteUri, 'lessons-prices') !== false ){// lessons-prices page
+    echo '<script src="scripts.js" charset="utf-8"></script>';
+  }
+}
+
 ?>
