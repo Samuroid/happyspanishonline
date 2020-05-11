@@ -1,29 +1,29 @@
 <?php include "header.php"; ?>
 
-  <section class="home-feature-container">
-    <div class="row">
-      <div class="col">
-      <div class="home-feature"><!-- transparent box div -->
+  <section class="home-feature-containe">
+    <div class="row navbar-spacer">
+      <div class="col-lg-6">
+      <div class="home-feature ml-auto"><!-- transparent box div -->
 
         <h1 class="feature-title pb-3 ">Hablamos Español</h1>
         <i class="far fa-comment fa-5x red pr-5"></i>
         <i class="fas fa-home fa-5x red"></i>
         <h1 class="feature-title pt-3">Desde Casa</h1>
 
-        <a class="pt-4" href="#first-ad-cards">
-          <i class="fas fa-chevron-down fa-3x"></i>
-        </a>
-
       </div><!-- .centered-feature -->
+    </div>
+
+    <div class="col-lg-6">
+      <img src="img/macarena-working.jpeg" width="90%">
     </div>
     </div><!-- /row -->
 
-    <div id="first-ad-cards" class="row card-group justify-content-center text-center">
+    <div class="row card-group justify-content-center text-center">
       <div class="col-lg-4">
         <div class="card mt-4">
           <div class="card-body">
 
-              <h2 class="card-title mb-4">Lessons At Home</h2>
+              <h2 class="card-title mb-4">At Home Lessons</h2>
               <p class="card-text">
                 All lessons are taken online in the
               </p>
@@ -31,7 +31,7 @@
                 comfort of your home on videocall.
               </p>
               <br  />
-              <i class="fas fa-laptop-house fa-5x"></i>
+              <i class="fas fa-laptop-house fa-5x yellow"></i>
 
           </div><!-- /card-body -->
         </div>
@@ -50,7 +50,7 @@
                 Lessons tailored to your needs
               </p>
               <br  />
-              <i class="far fa-smile fa-5x"></i>
+              <i class="far fa-smile fa-5x yellow"></i>
 
           </div><!-- /card-body -->
         </div><!-- /card -->
@@ -60,6 +60,7 @@
 
     <div class="row text-center">
       <div class="col pt-5">
+        <a class="a-link down-arrow" href="#ad-cards"><i class="fas fa-chevron-down fa-3x"></i></a>
       </div>
     </div>
 </section><!-- #feature-container -->
