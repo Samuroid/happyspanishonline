@@ -1,17 +1,19 @@
+var bodyDom = document.querySelector('body');
 // get the position of subnav
-var subnav = document.querySelector('#subnav')
-var subnavPos = subnav.offsetTop
+var subnav = document.querySelector('#subnav');
+var subnavPos = subnav.offsetTop;
 // get the windowWidth to use as a check for mobile screens
-var windowWidth = window.innerWidth
+var windowWidth = window.innerWidth;
 
 if (windowWidth > 575) { // if we are not a mobile screen add the listener
   window.addEventListener('scroll', function (e) {
-    var windowTop = document.querySelector('html').scrollTop
+    var windowTop = document.querySelector('html').scrollTop;
     if (windowTop > subnavPos - 60) {
-      subnav.classList.add('stick-subnav')
-      document.querySelector('body').classList.add('headBumper')
+      subnav.classList.add('stick-subnav');
+      bodyDom.classList.add('headBumper');
     } else {
-      subnav.classList.remove('stick-subnav')
+      subnav.classList.remove('stick-subnav');
+      bodyDom.classList.remove('headBumper');
     }
   }, { // improve performance
     capture: true,

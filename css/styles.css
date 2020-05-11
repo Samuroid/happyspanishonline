@@ -8,6 +8,7 @@ html {
 }
 
 body{
+  margin: 0 auto;
   font-family: Ubuntu;
   background-color: #f5efe0; /*tan*/
   overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -74,6 +75,7 @@ p, ul{
 .stick-subnav{
   position: fixed;
   top: 60px;
+  left: 0;
 }
 .square{
   border-radius: 0px;
