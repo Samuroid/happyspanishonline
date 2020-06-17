@@ -27,7 +27,7 @@ p, ul{
 /* Feature Image section */
 .home-feature-container{ /* homepage feature image */
   text-align: center;
-  background: url("../img/macarena-working.jpeg") no-repeat;
+  /* background: url("../img/macarena-working.jpeg") no-repeat; */
 }
 .classes-feature-container{/* classes feature image */
   background: url("../img/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg") no-repeat;
@@ -41,9 +41,9 @@ p, ul{
   margin-top: 60px; /* accounts for fixed navbar height */
 }
 .home-feature{
-  margin: 28% auto 0;
-  padding: 2%;
-  width: 60%;
+  display: block;
+  margin-top: 11%;
+  padding: 7% 3%;
   background-color: rgba(255, 255, 255, 0.8 );
   text-align: center;
 }
@@ -60,6 +60,10 @@ p, ul{
   text-align: center;
   position: relative;
   top: 50px;
+}
+.macarena-image{
+  width: 100%;
+  max-height: 290px;
 }
                       /* Utilities */
 .headBumper{
@@ -220,10 +224,15 @@ li{
   font-size: 0.9rem;
   text-align: center;
 }
-
 .methodology-image{
   max-width: 450px;
   max-height: 384px;
+}
+#footer a{
+  opacity: 0.7;
+}
+#footer a:hover{
+  opacity: 1;
 }
 
 /* Media Queries */
