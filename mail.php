@@ -78,7 +78,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST" ){
     if ( $response->success === true ){
       if ( $response->score >= 0.5 ){ // send mail
         $content="From: $name \n \nEmail: $email \n \nMessage:\n $message";
-        $recipient = "samwbru@gmail.com";
+        $recipient = "mbspanishonline@hotmail.com";
         $mailheader = "From: $email \r\n";
         mail($recipient, $subject, $content, $mailheader) or die("Error!");
         $gtokenEr = "Mail successfully sent. Macarena will get back to you shortly :)";

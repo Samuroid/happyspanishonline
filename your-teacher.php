@@ -2,13 +2,18 @@
 
   <section id="methodology" class="container-fluid">
     <div class="row pt-4">
+
+      <div class="col-lg-6 col-md-5">
+        <img class="pb-5" width="100%" src="img/macarena-hobbies-interests-activities.jpeg">
+      </div><!-- .col-6 -->
+
       <div class="col-lg-6 col-md-7">
         <h1>Hello! I am Macarena,</h1>
         <p>
           I teach <b>Spanish online</b> to students all over the world.
         </p>
         <p>
-          I live in Seville, the city where I am from, but <b>I have also lived in other cities</b> such as the UK where I started my career as a Spanish teacher.
+          I live in Seville, the city where I am from, but <b>I have also lived in other countries</b> such as the UK where I started my career as a Spanish teacher.
         </p>
 
         <h2 class="pt-5">My passions</h2>
@@ -27,9 +32,6 @@
         </p>
       </div><!-- .col-6 -->
 
-      <div class="col-lg-6 col-md-5">
-        <img class="pb-5" width="100%" src="img/macarena-hobbies-interests-activities.jpeg">
-      </div><!-- .col-6 -->
     </div><!-- .row -->
 
     <div class="row">
@@ -47,10 +49,10 @@
         </p>
         <ul>
           <li>
-            Teaching Spanish as a foreign language – <a href="https://eleinternacional.com/" alt="ELE Internacional" target="_blank">ELE Internacional</a>.
+            Intensive course in Teaching Spanish as a foreign language – <a href="https://eleinternacional.com/" alt="ELE Internacional" target="_blank">ELE Internacional</a>.
           </li>
           <li>
-            Spanish grammar for intermediate students – <a href="https://londres.cervantes.es/" alt="Instituto Cervantes" target="_blank">Instituto Cervantes</a>.
+            Specialized course in Spanish grammar for intermediate students – <a href="https://londres.cervantes.es/" alt="Instituto Cervantes" target="_blank">Instituto Cervantes</a>.
           </li>
           <li>
             I am an official examiner for DELE B1 and B2 – <a href="https://examenes.cervantes.es/es/dele/examenes/b1" alt="Instituto Cervantes Teacher" target="_blank">Instituto Cervantes</a>.

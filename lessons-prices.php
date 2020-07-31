@@ -51,7 +51,7 @@
           </h1>
           <ul class="centralise-list-styled">
             <li>
-              These lessons include grammar, vocabulary, reading, listening and speaking.
+              These lessons include grammar, vocabulary, reading, listening, speaking and writing.
             </li>
             <li>
               All the learning materials are included.
@@ -93,7 +93,7 @@
                   <li>Taken in 1 month.</li>
                 </ul>
                 <br />
-                <h2 class="card-title pricing-card-title text-center">€150</h2>
+                <h2 class="card-title pricing-card-title text-center">€105</h2>
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
         </h1>
         <ul class="centralise-list-styled">
           <li>
-            Lessons adapted to the needs of the group. These lessons include grammar, vocabulary, reading, listening and speaking.
+            Lessons adapted to the needs of the group. These lessons include grammar, vocabulary, reading, listening, speaking and writing.
           </li>
           <li>
             All the materials are included. Between 2 – 4 people.
@@ -203,7 +203,7 @@
             Practice with DELE exam’s models samples with the same format that you will find in the real exam.
           </li>
           <li>
-            Receive DELE examinator reports and feedback of your perfomance to improve to be prepared for the exam.
+            Receive DELE examinator reports and feedback of your performance to improve and develop strategies to be prepared for the exam.
           </li>
         </ul>
       </div>
@@ -243,7 +243,7 @@
         </h1>
         <ul class="centralise-list-styled">
           <li>
-            Only conversation. Individual customised lessons.
+            Only conversation.
           </li>
           <li>
             All the materials are included – reading material for outside of class, recommendations of movies, series, music, etc.
@@ -257,10 +257,11 @@
 
     <div class="card-deck text-center ad-cards justify-content-center">
       <div class="row">
-        <div class="col">
+        <div class="col-lg-6 col-md-6">
+
           <div class="card mb-4 shadow-sm">
             <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Conversationalist</h4>
+              <h4 class="my-0 font-weight-normal">Individual</h4>
             </div>
             <div class="card-body">
               <ul class="list-unstyled mt-3 mb-4">
@@ -271,8 +272,28 @@
               <h2 class="card-title pricing-card-title">€64</h2>
             </div>
           </div>
-        </div>
-      </div>
+
+        </div><!-- /col -->
+
+        <div class="col-lg-6 col-md-6">
+
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Group</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Groups of 2-4 people</li>
+                <li>50 minutes lesson</li>
+                <li>No expiration</li>
+              </ul>
+              <h2 class="card-title pricing-card-title">€60</h2>
+              <h5 class="text-muted text-center text-muted">per person</h5>
+            </div>
+          </div>
+
+        </div><!-- /col -->
+      </div><!-- /row -->
 
       <a class="full-width" href="your-teacher.php"><button class="btn btn-lg btn-block btn-primary btn-dark mt-4" type="button">Meet Macarena</button></a>
 

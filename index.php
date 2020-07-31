@@ -19,16 +19,15 @@
         </div>
       </div>
 
-
       <div class="col-lg-4 col-md-6">
         <div class="card mt-4">
-          <div class="card-body p-0">
+          <div class="card-body">
 
-              <img class="macarena-image" src="img/macarena-working.jpeg">
+              <img class="macarena-image" src="img/macarena-working.jpeg" />
 
           </div><!-- /card-body -->
-        </div><!-- /card -->
-      </div><!-- /col -->
+        </div>
+      </div>
     </div><!-- /row /card-deck -->
 
     <div id="first-ad-cards" class="row card-group justify-content-center text-center">
@@ -132,33 +131,33 @@
     </div><!-- /.container-fluid -->
 </section><!-- /#ad-cards -->
 
-<section id="testimonials">
-    <h2>Testimonials</h2>
+<section id="courses">
+  <div class="row">
+    <div class="col-md-4 col-sm-12 text-center">
+      <img class="courseImg" src="img/espanol_general.jpg" alt="Spanish Life Photo" />
+      <h3 class="mt-4">GENERAL SPANISH</h3>
+      <p class="mt-4">
+        The aim is for the student to acquire communicative capability so that you can understand, express yourself and interact appropriately in various real-life situations.
+      </p>
+    </div>
 
-    <div id="testimonials-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <!-- active class first slide to show-->
-          <h3>An example of the testimonial section. Please supply the relevant content to bring this section up-to-date :)</h3>
-          <img class="testimonial-img" src="https://via.placeholder.com/150" alt="dog-profile">
-          <em>Pebbles, New York</em>
+    <div class="col-md-4 col-sm-12 text-center">
+      <img class="courseImg" src="img/fines_específicos.jpg" alt="Spanish Life Photo" />
+      <h3 class="mt-4">SPECIFIC PURPOSES</h3>
+      <p class="mt-4">
+        Lessons designed for students that have a special reason for learning Spanish. Spanish lessons for travelling, personal life, school reinforcement, GSCEs, A-Levels, International Baccalaureate.
+      </p>
+    </div>
 
-        </div>
-        <div class="carousel-item">
-          <h3 class="testimonial-text">An example of the testimonial section. Please supply the relevant content to bring this section up-to-date :)</h3>
-          <img class="testimonial-img" src="https://via.placeholder.com/150" alt="lady-profile">
-          <em>Beverly, Illinois</em>
-        </div>
+    <div class="col-md-4 col-sm-12 text-center">
+      <img class="courseImg " src="img/exams.jpg" alt="Exams Prep Photo" />
 
-      </div>
-      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- testimonials-carousel -->
-</section><!-- /#testimonials -->
+      <h3 class="mt-4">EXAM PREPARATION</h3>
+      <p class="mt-4">
+        For students that need the certification in Spanish as a Foreing Language (DELE) Levels B1 and B2.
+      </p>
+    </div>
+  </div>
+</section>
+
 <?php include "footer.php"; ?>
